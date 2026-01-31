@@ -1,1 +1,1 @@
-# The website for our community. Intended to be simple
+The website for our community. Intended to remain simple
