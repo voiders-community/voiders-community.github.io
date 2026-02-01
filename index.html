@@ -1,9 +1,64 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Voiders Community</title>
-  </head>
-  <body>
-    <p>Void Users Community<br/>Site Work in Progress</p>
-  </body>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="#" class="nav-logo"><span>Void</span>ers</a>
+        <div class="nav-links">
+            <a href="#projects">Projects</a>
+            <a href="https://github.com/voiders-community" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://discord.gg/9w9sGHDPAq" target="_blank" rel="noopener noreferrer">Discord</a>
+
+            <div class="theme-switch-wrapper">
+                <input type="checkbox" id="theme-toggle">
+                <label for="theme-toggle" class="theme-label" title="Switch Theme"></label>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Void Linux Community</h1>
+        <p>An unofficial, community-driven collective dedicated to the Void Linux distribution.</p>
+        <div>
+            <a href="https://discord.gg/9w9sGHDPAq" class="btn">Chat with us</a>
+            <a href="https://github.com/voiders-community" class="btn btn-outline">Join the Org</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="projects">
+            <h2>Current Projects</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Void Community Repository</h3>
+                    <p>The primary repo holding all of our utilities and scripts, as well as packages desired by the community but may not fit the original Void packaging guidelines.</p>
+                    <span style="color: var(--accent); font-size: 0.9rem;">In Development</span>
+                </div>
+                <div class="card">
+                    <h3>XRH</h3>
+                    <p>XBPS Repository Helper. An even more user-friendly wrapper for xbps, as well as a way to manage and build from community repositories easier.</p>
+                    <span style="color: var(--text-muted); font-size: 0.9rem;">Planned</span>
+                </div>
+                <div class="card">
+                    <h3>Documentation</h3>
+                    <p>Extended guides for things such as complex/unorthodox installs, gaming optimizations, and more hardware support.</p>
+                    <span style="color: var(--text-muted); font-size: 0.9rem;">Planned</span>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Voiders Community. Not officially affiliated with Void Linux or its contributors, developers and maintainers.</p>
+    </footer>
+
+    <script src="./assets/js/copy.js"></script>
+    <script src="./assets/js/toggle.js"></script>
+</body>
 </html>
